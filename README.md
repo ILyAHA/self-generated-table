@@ -6,7 +6,7 @@ Usage:
 
 .....
 
-let testCell = CategoryViewCell.createCell(some parameters)
+let testCell = TestViewCell.createCell(some parameters)
 
 var cells : [UITableViewCell] = [testCell]
 
