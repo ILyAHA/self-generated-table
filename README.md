@@ -4,7 +4,7 @@ Usage:
 
 @IBOutlet var table : SelfGeneratedTableView!
 .....
-let testCell = CategoryViewCell.createCell(some parameters)
+let testCell = CategoryViewCell.createCell(some parameters)\n
 var cells : [UITableViewCell] = [testCell]
 
 table.source = [ [ SGTKeyCells : cells ] ]
