@@ -1,6 +1,7 @@
 # self-generated-table
 
 Usage:
+
 @IBOutlet var table : SelfGeneratedTableView!
 .....
 let testCell = CategoryViewCell.createCell(some parameters)
