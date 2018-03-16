@@ -3,8 +3,11 @@
 Usage:
 
 @IBOutlet var table : SelfGeneratedTableView!
+
 .....
-let testCell = CategoryViewCell.createCell(some parameters)\n
+
+let testCell = CategoryViewCell.createCell(some parameters)
+
 var cells : [UITableViewCell] = [testCell]
 
 table.source = [ [ SGTKeyCells : cells ] ]
